@@ -1,8 +1,12 @@
 /*
 
+# Other files
 !data/
 !haarcascades/
 !.gitignore
 !README.md
+
+# Source code
 !main.py
 !config.py
+!video/
