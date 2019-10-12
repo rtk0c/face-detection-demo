@@ -7,8 +7,8 @@ wname = "Face Detection"
 cv2.namedWindow(wname)
 
 # TODO actual image set
-img = cv2.imread("/Users/tianyiguan/Documents/Tinovation/FaceDetection/img_lights.jpg")
-# cv2.imshow(wname, img)
+img = cv2.imread("/Users/tianyiguan/Documents/Tinovation/FaceDetection/5d4ae5ea100a2411da63051d-750-562.jpg")
+cv2.imshow(wname, img)
 
 face_classifier = cv2.CascadeClassifier("Haarcascades/haarcascade_frontalface_default.xml")
 eye_classifier = cv2.CascadeClassifier ("Haarcascades/haarcascade_eye.xml")
